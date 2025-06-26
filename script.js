@@ -6,3 +6,7 @@ btn.addEventListener("click", () => {
   message.classList.add("reveal");
   btn.style.display = "none";
 });
+const audio = document.querySelector("audio");
+btn.addEventListener("click", () => {
+  audio.play(); // triggers audio after user interaction
+});
