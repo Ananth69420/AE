@@ -1,49 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <title>she’s everyth8ng</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>she’s everyth8ng</h1>
+  <div class="container">
 
-  <button id="revealBtn">click me 🫣</button>
+    <h1 class="typewriter">she’s everyth8ng</h1>
 
-  <div id="message" class="hidden">
-    <p>
-      disha, idk how to write shit properly but this is straight from me.<br>
-      we’ve been through a lot. from random calls to fighting to fixing shit — i still want it all with you.<br>
-      you’re home to me. this is just a small reminder of the stuff i love about you. (there’s more but i’m shy lol)
-    </p>
+    <button id="revealBtn">click me 🫣</button>
 
-    <ul>
-      <li>your smile, always.</li>
-      <li>how you care, even when you’re mad at me.</li>
-      <li>your voice, it feels like home.</li>
-      <li>when you laugh at my dumb jokes.</li>
-      <li>late night calls that turn into therapy.</li>
-      <li>when you tell me things no one else knows.</li>
-      <li>just you, honestly.</li>
-    </ul>
+    <div id="message" class="hidden">
+      <p>
+        disha, idk how to write shit properly but this is straight from me.<br>
+        we’ve been through a lot. from random calls to fighting to fixing shit — i still want it all with you.<br>
+        you’re home to me. this is just a small reminder of the stuff i love about you. (there’s more but i’m shy lol)
+      </p>
 
-    <footer>
-      i’ll keep adding more, promise.
-    </footer>
+      <ul>
+        <li>your smile, always.</li>
+        <li>how you care, even when you’re mad at me.</li>
+        <li>your voice, it feels like home.</li>
+        <li>when you laugh at my dumb jokes.</li>
+        <li>late night calls that turn into therapy.</li>
+        <li>when you tell me things no one else knows.</li>
+        <li>just you, honestly.</li>
+      </ul>
+
+      <footer>
+        i’ll keep adding more, promise.
+      </footer>
+    </div>
+
   </div>
 
-  <script>
-    const btn = document.getElementById("revealBtn");
-    const message = document.getElementById("message");
-
-    btn.addEventListener("click", () => {
-      message.classList.remove("hidden");
-      btn.styles.display = "none";
-    });
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
