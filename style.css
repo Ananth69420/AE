@@ -74,4 +74,48 @@ button:hover {
 
 ul {
   list-style: none;
-  padding
+  padding: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #ffe5ec;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: scale(1.02);
+  background-color: #ffd6e0;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.hidden {
+  display: none;
+}
+
+#heartCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.chat-bubble {
+  background: #ffe0ec;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  max-width: 90%;
+  animation: fadeIn 0.5s ease-in;
+}
